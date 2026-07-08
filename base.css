@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+table th {
+    background-color: rgb(111, 144, 133);
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: rgb(228, 234, 234);
+}
+table tr:hover {
+    background-color: rgb(201, 244, 230);
+}
+table mousepointer {
+    cursor: pointer;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(201, 244, 230);
+    border: 1px solid rgb(111, 144, 133);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(228, 234, 234);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(201, 201, 201);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(173, 173, 209);
+    min-height: 150px;
+}
